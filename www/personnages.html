@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<title>Acceuil</title>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Acceuil</a>
+  <a href="#news">Perssonnages</a>
+  <a href="#contact">Interface</a>
+  <a href="#about">Le score</a>
+  <a href="#Contactez-nous">Contactez-nous</a>
+  <a href="#Niveaux">Niveaux</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <script>function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }</script>
+    
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+	</head>
+    <body>
+		<header>
+			
+		</header>
+		<main>
+			<h1>Les personnages présent dans le jeu</h1>
+			</br>
+			<div class="flex wrap space-around">
+				<div class="border card">
+					<h2 class="center">Le protagoniste</h2>
+					<div>
+						<div class="flex blocImageBien"><img src="img\vaisseauPlayer.png" alt="image lorem picsum" /></div>
+						<div class="center">
+							<h3>250000€</h3>
+							<a href="personnages2.html"><button class="btn btn-page">Informations</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="border card">
+					<h2 class="center">Ennemi 1</h2>
+					<div>
+						<div class="flex blocImageBien"><img src="img\ennemi1.png" alt="image lorem picsum" /></div>
+						<div class="center">
+							<h3>310000€</h3>
+							<a href="personnages3.html"><button class="btn btn-page">Informations</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="border card">
+					<h2 class="center">Ennemi 2</h2>
+					<div>
+						<div class="flex blocImageBien"><img src="img\ennemi2.png" alt="image lorem picsum" /></div>
+						<div class="center">
+							<h3>250000€</h3>
+							<a href="personnages4.html"><button class="btn btn-page">Informations</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="border card">
+					<h2 class="center">Ennemi 3</h2>
+					<div>
+						<div class="flex blocImageBien"><img src="img\ennemi3.png" alt="image lorem picsum" /></div>
+						<div class="center">
+							<h3>156000€</h3>
+							<a href="personnages5.html"><button class="btn btn-page">Informations</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div>
+				<p>En cas de soucis, veuillez me contacter à l'adresse suivante :</p>
+				<a href="mailto:190271@site.asty-moulin.be">190271@site.asty-moulin.be</a>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
+    </body>
+</html>

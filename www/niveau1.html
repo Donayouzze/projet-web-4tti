@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<title>Acceuil</title>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Acceuil</a>
+  <a href="#news">Perssonnages</a>
+  <a href="#contact">Interface</a>
+  <a href="#about">Le score</a>
+  <a href="#Contactez-nous">Contactez-nous</a>
+  <a href="#Niveaux">Niveaux</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <script>function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }</script>
+    
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1>Galactic Surfer</h1>
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="navbar-nav">
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul>
+								<li><a href="index.html">Acceuil</a></li>
+								<li><a href="personnages.html">Personnages</a></li>
+								<li><a href="interface.html">Interface</a></li>
+								<li><a href="score.html">Le score</a></li>
+								<li><a href="contact.html">Contactez-nous</a></li>
+								<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Niveau<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="Niveau1.html" class="active">Niveau 1</a></li>
+										<li><a href="Niveau2.html">Niveau 2</a></li>
+										<li><a href="Niveau3.html">Niveau 3</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div>
+				<h1>Niveau 1</h1>
+				<p>
+					Le niveau 1 est facile, il y a juste des météorites qui tombent et on doit les esquiver. Si on
+					touche une météorite, on perd un point de vie. Le joueur possède 3 points de vie maximum. Au fur et
+					à mesure que la partie avance, on pourra, si le joueur manque de points de vie, ramasser des coeurs pour
+					pouvoir aller plus loin dans la partie (ils apparaissent à une basse fréquence pour pas que ce soir trop facile).
+				</p>
+			</div>
+			<div>
+				<div>
+					<h2>Personnages</h2>
+					<p>Voici à quoi ressemblera le joeur dans le jeu.</p><br>
+					<img src="img/vaisseauPlayer.png" alt="Petit vaisseau spacial orange">
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div>
+				<p>En cas de soucis, veuillez me contacter à l'adresse suivante :</p>
+				<a href="mailto:190271@site.asty-moulin.be">190271@site.asty-moulin.be</a>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
